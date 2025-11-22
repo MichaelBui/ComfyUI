@@ -1,0 +1,33 @@
+name: comfyui
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - wget
+  - portaudio
+  - numpy
+  - pillow
+  - pyyaml
+  - requests
+  - tqdm
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - accelerate
+      - safetensors
+      - soundfile
+      - librosa
+      - scipy
+      - einops
+      - kornia
+      - spandrel
+      - sounddevice
+      - pyaudio
+      - huggingface_hub
+
